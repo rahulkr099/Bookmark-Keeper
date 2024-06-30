@@ -1,0 +1,153 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    /* color:white;
+    background-color: rgb(33, 32, 32); */
+    
+    /* background-color: #DFDBE5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.29'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); */
+}
+.add-bookmark{
+    border: 3px solid greenyellow;
+    border-radius: 9px;
+    box-shadow: 1px 2px 9px 3px greenyellow;
+    display: inline;
+    padding: .5rem;
+    margin: 1rem;
+    text-align: center;
+    position: relative;
+    left: 10rem;
+    top: 3rem;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: rgba(245, 245, 245, 0.586);
+}
+.add-bookmark:hover{
+    background-color: rgba(0,0,0,.5);
+    backdrop-filter: blur(2px);
+    box-shadow: none;
+    color: white;
+}
+.bookmark-container{
+    border: 1px solid rgb(28, 28, 222);
+    width: 83vw;
+    height: 77vh;
+    margin: 3rem;
+    color: whitesmoke;
+    box-shadow: 1px 1px 9px 4px rgb(28, 28, 222);
+    border-radius: 9px;
+    outline: none;
+    position: relative;
+    top: 3rem;
+}
+.bookmark-item{
+    border: 1px solid orange;
+    display: flex;
+    margin: 1rem;
+    position: relative;
+    padding: .7rem;
+    font-size: 1.4rem;
+    box-shadow: inset  1px 1px 9px 1px orange;
+    border-radius: 9px;
+}
+.bookmark-item>i{
+    position: relative;
+    left: 20.9rem;
+    color: rgba(0,0,0,.5);
+}
+.bookmark-item>i:hover{
+    color: red;
+}
+a{
+    font-style: none;
+    text-decoration: none;
+    margin-left:8px;
+}
+.bookmark-item:hover{
+    background-color: rgba(0,0,0,.5);
+    backdrop-filter: blur(3px);
+    box-shadow: none;
+}
+a:hover{
+    color:white;
+}
+.bookmark-modal{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;bottom: 0;right: 0;left: 0;
+}
+
+.form-input{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+form{
+    position: relative;
+    top:50%;
+    left: 27%;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    box-shadow: 1px 2px 6px 9px rgba(0,0,0,.3);
+    width: 54vw;
+    background-color: whitesmoke;
+    backdrop-filter: blur(9px);
+    height: 35vh;
+}
+.form-logo{
+    height: 5vh;
+    text-align:center;
+    background-color: orange;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 1.3rem;
+}
+.form-logo>i{
+    position: relative;
+    top: 4px;
+    left: 2.3rem;
+    font-size: 1.3rem;
+}
+.form-logo>i:hover{
+    color: red;
+}
+.hide-modal{
+    transform: translate(-100%,-100%);
+}
+.website-name>input{
+    margin: 9px;
+    display: flex;
+    border-radius: 4px;
+    padding: 3px;
+    position: relative;
+    right: 6px;
+}
+.website-name>input:focus{
+    box-shadow: 1px 1px 12px 1px red;
+    border:1px solid red;
+}
+.website-url>input{
+    margin: 9px;
+    display: flex;
+    border-radius: 4px;
+    padding: 3px;
+    position: relative;
+    right: 6px;
+}
+.website-url>input:focus{
+    box-shadow: 1px 1px 12px 1px red;
+    border:1px solid red;
+}
+#button{
+    padding: 3px;
+    font-size: 1rem;
+    border-radius: 7px;
+    margin-top: 9px;
+    position: relative;
+    left: 4.5rem;
+}
+#button:hover{
+    background-color: orange;
+    color: white;
+}
